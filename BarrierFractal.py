@@ -36,7 +36,8 @@ while not cr.contains_point((rx,ry),0):
 sx=-2;ix=-1
 
 i=0
-while i<5000:
+inp = int(input("Enter no. of iterations(min 1000):"))
+while i<inp:
     ix=rd.choice(range(0,4))
     if ix==sx  :
         continue
