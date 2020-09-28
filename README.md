@@ -1,4 +1,4 @@
-# fractals
+# Chaos Game
 ### Dependencies
   * matplotlib
   * numpy
