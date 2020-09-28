@@ -1,2 +1,4 @@
 # fractals
-Scripts for visualizing different fractals.
+### Dependencies
+  * matplotlib
+  * numpy
