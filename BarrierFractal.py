@@ -47,8 +47,8 @@ while i<inp:
     my=(ry+cy)/2
    
     if ang((rx,ry),(cx,cy),cr.center)<mxang(cr.radius,dist((rx,ry),cr.center)):
-        #print("Here")
         continue
+    
     rx=mx
     ry=my
     ax.scatter(rx,ry,s=1,c='b')
